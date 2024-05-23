@@ -4,8 +4,8 @@
   "description": "A simple inventory management web app where you can check list of all product.\r Also a option to choose themes from the menu and save it to apply.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
