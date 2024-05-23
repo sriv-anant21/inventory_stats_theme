@@ -1,11 +1,9 @@
 //@ts-nocheck
 import React from "react";
-import ReactDOM from "react-dom";
-import { Provider, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { ThemeProvider } from "@mui/material/styles";
 import { StylesProvider, jssPreset } from "@mui/styles";
 import { create } from "jss";
-import store from "./redux/store";
 import { themes } from "./styles/themes";
 import { InventoryLayout } from "./views/inventoryLayout";
 import "./App.css";

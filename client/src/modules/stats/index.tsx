@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Card, Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import { getStatsColumn } from "./config";
 import CardBox from "../../components/card";
 import { useSelector } from "react-redux";

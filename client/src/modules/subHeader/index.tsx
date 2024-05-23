@@ -21,7 +21,7 @@ export const SubHeader = () => {
 	const { selectTheme } = themeActions;
 	const dispatch = useDispatch();
 	const classes = useStyles();
-	const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+	const { enqueueSnackbar } = useSnackbar();
 	const handleThemeChange = (event) => {
 		dispatch(selectTheme(event.target.value));
 	};

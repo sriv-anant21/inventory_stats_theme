@@ -1,6 +1,3 @@
-import { inventoryActions } from "../../redux/inventoryStates/slice";
-
-
 export const ITEM_COLUMNS = [
 	{
 		title: "Name",

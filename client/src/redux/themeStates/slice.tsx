@@ -32,7 +32,6 @@ const themeSlice: any = createSlice({
 				state.loading = false;
 			})
 			.addCase(saveUserPreference.fulfilled, (state: any, action: any) => {
-				const { payload } = action;
 				state.loading = false;
 			})
 			.addCase(saveUserPreference.pending, (state: any) => {
