@@ -1,3 +1,4 @@
+import React from "react";
 import {ShoppingCartOutlined, MonetizationOnOutlined, CategoryOutlined, CancelOutlined} from '@mui/icons-material';
 
 export const getStatsColumn = (state: any) => {
