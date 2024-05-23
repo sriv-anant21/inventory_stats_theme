@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5454";
+const BASE_URL = "https://inventory-stats-theme-backend.vercel.app";
 
 export const LIST_URL = "https://dev-0tf0hinghgjl39z.api.raw-labs.com/inventory";
 
