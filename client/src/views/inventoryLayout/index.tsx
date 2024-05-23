@@ -26,7 +26,8 @@ export const InventoryLayout = () => {
       })
     );
     dispatch(getList({ endpoint: LIST_URL }));
-  }, [loggedInUserId]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   return (
     <Container className={classes.root}>
       {loading || themeLoader ? (
