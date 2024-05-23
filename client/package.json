@@ -36,10 +36,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cd client && react-scripts start",
     "build": "cd client && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "cd client && react-scripts test",
+    "eject": "cd client && react-scripts eject",
+    "install": "cd client && react-script install"
   },
   "eslintConfig": {
     "extends": [
