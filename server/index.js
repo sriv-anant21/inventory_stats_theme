@@ -12,7 +12,7 @@ app.use(express.json()); //middleware
 app.use(cors()); // to allow all URLs from frontend
 
 app.listen(PORT, async () => {
-  // await connectDb();
+  await connectDb();
   console.log("Backend is listening on PORT : ", PORT);
 });
 
