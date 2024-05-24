@@ -1,6 +1,5 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import {thunk} from 'redux-thunk';
-import { composeWithDevTools } from 'redux-devtools-extension';
 
 import inventoryReducer from './inventoryStates/slice';
 import themeReducer from './themeStates/slice';
