@@ -14,13 +14,15 @@ const rootReducer = combineReducers({
 });
 
 // Enable Redux DevTools extension
-const composeEnhancers = composeWithDevTools || compose;
+// const composeEnhancers = composeWithDevTools || compose;
+
+const middleware = [thunk];
 
 
 // Create store with rootReducer, initial state, middleware, and enhancers
 const store: any = createStore(
   rootReducer,
-  composeEnhancers(applyMiddleware(thunk)) // Use composeWithDevTools
+  compose(applyMiddleware(...middleware)) // Use composeWithDevTools
 );
 
 export default store;
