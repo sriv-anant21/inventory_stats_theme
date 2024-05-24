@@ -1,4 +1,4 @@
-const BASE_URL = "https://inventory-backend-theme1.vercel.app";
+const BASE_URL = "https://inventory-backend-theme1-1.onrender.com";
 
 export const LIST_URL = "https://dev-0tf0hinghgjl39z.api.raw-labs.com/inventory";
 
